@@ -126,7 +126,7 @@ declare global {
     url: string;
   }
   interface HTMLElementTagNameMap {
-    'chess-board': ChessBoardElement;
+    'chessvision-extension-chess-board': ChessBoardElement;
   }
 }
 
@@ -273,7 +273,7 @@ const renderPieceDirective = directive(
  * @csspart alpha - The alpha (column) labels
  * @csspart numeric - The numeric (row) labels
  */
-@customElement('chess-board')
+@customElement('chessvision-extension-chess-board')
 export class ChessBoardElement extends LitElement {
   static styles = styles;
 

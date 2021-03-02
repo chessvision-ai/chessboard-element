@@ -2,7 +2,7 @@
   "version": "experimental",
   "tags": [
     {
-      "name": "chess-board",
+      "name": "chessvision-extension-chess-board",
       "path": "./src/lib/chessboard-element.ts",
       "description": "A custom element that renders an interactive chess board.",
       "attributes": [
